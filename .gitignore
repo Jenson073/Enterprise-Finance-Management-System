@@ -1,0 +1,69 @@
+# ==========================================
+# ROOT LEVEL
+# ==========================================
+.DS_Store
+*.log
+logs
+.env
+.env.local
+*.local
+
+# ==========================================
+# FRONTEND (React)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/dist-ssr/
+frontend/.env
+frontend/.env.local
+
+# npm / yarn / pnpm logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Editor files (frontend)
+frontend/.vscode/
+frontend/.idea/
+
+# ==========================================
+# BACKEND (Spring Boot / Maven)
+# ==========================================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Tool Suite / Eclipse
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings/
+backend/.springBeans
+backend/.sts4-cache
+
+# IntelliJ
+backend/.idea/
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+
+# NetBeans
+backend/nbproject/private/
+backend/nbbuild/
+backend/dist/
+backend/nbdist/
+backend/.nb-gradle/
+backend/build/
+
+# ==========================================
+# IMPORTANT: PROPERTIES & SECRETS
+# ==========================================
+
+# Ignore real application properties (with DB password)
+backend/src/main/resources/application.properties
+
+# Optional: if using YAML
+backend/src/main/resources/application.yml
