@@ -62,8 +62,9 @@ backend/build/
 # IMPORTANT: PROPERTIES & SECRETS
 # ==========================================
 
-# Ignore real application properties (with DB password)
+# Ignore real application properties (with DB password and transaction files)
 backend/src/main/resources/application.properties
+backend/uploads/
 
 # Optional: if using YAML
 backend/src/main/resources/application.yml
